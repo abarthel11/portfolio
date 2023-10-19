@@ -1,0 +1,53 @@
+:root {
+	--primary-color: #00a1e0;
+	--darker-primary-color: #0180b2;
+	--black: #000000;
+	--white: #ffffff;
+}
+
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-size: 62.5%;
+}
+
+body {
+	background-color: var(--black);
+	color: var(--white);
+}
+
+button {
+	padding: 1rem 5rem;
+	font-size: 2rem;
+	background-color: var(--primary-color);
+	color: var(--white);
+	border: 0;
+	border-radius: 1rem;
+}
+
+button:hover {
+	transition: 0.2s ease-in;
+	cursor: pointer;
+	background-color: var(--darker-primary-color);
+	transform: scale(1.05);
+}
+
+.landing-wrapper {
+	width: 100vw;
+	height: 100vh;
+	display: flex;
+}
+
+.left-landing {
+	width: 60%;
+}
+
+.landing-text {
+	font-size: 8rem;
+}
+
+.right-landing {
+	width: 40%;
+	background-color: var(--primary-color);
+}
