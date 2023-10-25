@@ -78,3 +78,156 @@ button:hover {
 	background: url(../images/austinflannel.jpg) no-repeat center center;
 	background-size: cover;
 }
+
+.left-about-me {
+	width: 60%;
+	padding: 5%;
+}
+
+.left-image {
+	width: 100%;
+	height: 100%;
+	background: url(../images/austinpolo.jpg) no-repeat center center;
+	background-size: cover;
+}
+
+.right-about-me {
+	width: 40%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: start;
+}
+
+.right-about-me h2,
+.right-exp h2,
+.skills h2 {
+	font-size: 7rem;
+	font-family: 'Antonio', sans-serif;
+	text-transform: uppercase;
+}
+
+.left-eca h2 {
+	font-size: 5rem;
+	font-family: 'Antonio', sans-serif;
+	text-transform: uppercase;
+}
+
+.right-about-me p {
+	font-size: 3rem;
+	font-family: 'Roboto', sans-serif;
+}
+
+.left-exp,
+.right-eca {
+	width: 50%;
+}
+.left-img {
+	width: 100%;
+	height: 100%;
+	background: url(../images/austintable.jpg) no-repeat center center;
+	background-size: cover;
+}
+
+.right-exp,
+.left-eca {
+	width: 50%;
+	padding-top: 5rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: start;
+	align-items: center;
+	gap: 3rem;
+}
+
+.work-card {
+	width: 80%;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	gap: 7rem;
+}
+
+.right-exp h2 {
+	margin-bottom: 4rem;
+}
+
+.work-card .job {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 700;
+	font-size: 2rem;
+}
+.work-card .company {
+	font-family: 'Roboto', sans-serif;
+	font-size: 2rem;
+}
+.work-card .time-period {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 100;
+	font-size: 2rem;
+}
+
+.skills {
+	width: 100%;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: start;
+	align-items: center;
+}
+
+.skills h2 {
+	margin-bottom: 3rem;
+}
+
+.skills-wrapper {
+	width: 100%;
+	height: 100%;
+	display: grid;
+	padding: 0 5rem;
+	grid-template-rows: repeat(3, 20%);
+	grid-template-columns: repeat(3, 1fr);
+	gap: 100px 100px;
+}
+
+.skill-card {
+	justify-self: center;
+	align-self: center;
+	width: 100%;
+}
+
+.skill-card p {
+	font-size: 3rem;
+	margin-bottom: 2rem;
+	text-align: center;
+	font-family: 'Antonio', sans-serif;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+
+.pill {
+	width: 100%;
+	height: 3rem;
+	border-radius: 5rem;
+	background-color: var(--gray);
+	overflow: hidden;
+	position: relative;
+}
+
+.pill span {
+	height: 100%;
+	display: block;
+	background-color: var(--primary-color);
+	line-height: 30px;
+	position: absolute;
+	text-align: end;
+	padding-right: 5px;
+}
+
+.right-img {
+	width: 100%;
+	height: 100%;
+	background: url(../images/austinwatch.jpg) no-repeat center center;
+	background-size: cover;
+}
