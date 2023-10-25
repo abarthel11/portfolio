@@ -1,0 +1,39 @@
+@import url(./variables.css);
+
+.nav-items {
+	position: fixed;
+	top: 0;
+	z-index: 1030;
+	display: block;
+	width: 100vw;
+	height: 10vh;
+	display: flex;
+	flex-direction: row;
+	justify-content: start;
+	align-items: center;
+	background-color: var(--black);
+	list-style: none;
+	border-bottom: 1px solid var(--white);
+}
+.nav-items a {
+	width: 25%;
+	text-align: center;
+	text-decoration: none;
+	color: var(--white);
+	font-size: 3rem;
+	font-family: 'Antonio', sans-serif;
+	text-transform: uppercase;
+}
+.nav-items a:hover {
+	color: var(--primary-color);
+}
+
+#home {
+	position: absolute;
+	margin-top: -10vh;
+}
+
+#about-me {
+	position: absolute;
+	margin-top: 10vh;
+}
