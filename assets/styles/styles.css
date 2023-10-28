@@ -101,7 +101,8 @@ button:hover {
 
 .right-about-me h2,
 .right-exp h2,
-.skills h2 {
+.skills h2,
+.cert-wrapper h2 {
 	font-size: 7rem;
 	font-family: 'Antonio', sans-serif;
 	text-transform: uppercase;
@@ -230,4 +231,76 @@ button:hover {
 	height: 100%;
 	background: url(../images/austinwatch.jpg) no-repeat center center;
 	background-size: cover;
+}
+
+.cert-wrapper {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.certs-all {
+	width: 90%;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.cert-card {
+	width: 30rem;
+	height: 40rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+	border: 1px solid var(--white);
+}
+
+.cert-card:hover {
+	cursor: pointer;
+	border: 1px solid var(--primary-color);
+}
+
+.cert-card .cert-title {
+	width: 80%;
+	font-size: 4rem;
+	font-family: 'Antonio', sans-serif;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+.dev-icon {
+	width: 15rem;
+	height: 15rem;
+	background: url(../images/pd1.png) no-repeat center center;
+	background-size: cover;
+}
+
+.java-icon {
+	width: 15rem;
+	height: 15rem;
+	background: url(../images/java1.png) no-repeat center center;
+	background-size: cover;
+}
+.app-icon {
+	width: 15rem;
+	height: 15rem;
+	background: url(../images/platapp.png) no-repeat center center;
+	background-size: cover;
+}
+
+.find-out-more {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.find-out-more p {
+	font-size: 3rem;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 100;
+	margin-bottom: 1rem;
 }
